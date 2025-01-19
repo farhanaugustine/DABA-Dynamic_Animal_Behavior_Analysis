@@ -1,0 +1,12 @@
+# Example Configuration file for animal behavior analysis script
+
+# Ollama settings
+ollama_url: "http://localhost:11434"
+roi_file_path: "path/to/your/roi_definitions.json"
+code_gen_model: "codegemma:latest" # Used for Code Generation
+
+# ROI settings
+roi_file_path: "rois.json"  # Default path for saving/loading ROIs
+
+# Logging settings
+log_level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
