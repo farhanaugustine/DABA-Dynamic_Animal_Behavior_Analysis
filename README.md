@@ -172,7 +172,8 @@ ollama run 'name-of-the-model-you-want-to-download' (e.g., ollama run llama2, ol
 ```
 To download my models from Ollama: 
 ```bash
-For q4_K_M quantized (43GB) Model: `ollama run ollama run FarhanAugustine/llama3.3_DLC`
+For q4_K_M quantized (43GB) Model: `ollama run FarhanAugustine/nemotron_DLC`
+For q4_K_M quantized (43GB) Model: `ollama run FarhanAugustine/llama3.3_DLC`
 For q3_K_S quantized (31GB) Model: `ollama run FarhanAugustine/llama3.3_DLC_q3_K_S`
 ```
 
