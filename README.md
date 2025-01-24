@@ -10,6 +10,28 @@
 Dynamic Animal Behavior Analysis
 ```
 
+$\textcolor{#76b900}{\\#\ ***\ Updates\ ***}$
+
+#### LLMs created in Ollama for this project's code generation module are available for download on [https://Ollama.com](https://ollama.com/FarhanAugustine)
+###### Evaluate the sizes and relative accuracies of models based on your own hardware. The semi-quantatitative LLM scores (below) are provided as a baseline obtained during testing of DABA Code generation functionality. The following scoring criteria were used: *1. Code functionality (0-30 pts), 2. Code completeness & Prompt adherence (0-10 pts), 3. Output format (0-2 pts), 4. Code Comments (0-2 pts), 5. Code security (0-2 pts), and 6. Code Efficiency (0-2 pts)*. Note: Each LLM was prompted twice with the same prompt and scores were averaged. Individual LLM performance may vary, use with caution!
+
+![Figure_1Github](https://github.com/user-attachments/assets/9f276477-dce6-46d8-9d23-f252373d7fd4)
+|Prompt # | Prompts Used for LLM Testing |
+|----|----|
+| 1. |"Calculate the distance traveled by the Animal's Head in a user defined ROI, which the user will input as a list of tuples [(x,y),(x,y),(x,y),(x,y)]. Ensure that the code is standalone and ready to execute using only the DeepLabCut output CSV." 
+| 2. | "Calculate the time spend by the Animal's Head in a user defined ROI only. The user will input the ROI as a list of tuples [(x,y),(x,y),(x,y),(x,y)]. Ensure that the code is standalone and ready to execute using only the DeepLabCut output CSV."|
+|3. | "Calculate the time to first entry by the Animal's Head in a user defined ROI only. The user will input the ROI as a list of tuples [(x,y),(x,y),(x,y),(x,y)]. The criteria for entry is that the Animal's Head must be in the ROI for at least 30 Consecutive Frames before the Entry is to be counted. Ensure that the code is standalone and ready to execute using only the DeepLabCut output CSV."|
+
+#### Hardware used for Testing
+| Hardware| |
+|---|---|
+|Operating System |Windows|
+|CPU|i9-14900F |
+|GPU| RTX 4080 Super (16GB vRAM)|
+RAM | 64 GB|
+
+$\textcolor{#76b900}{\\#\ ***\ End\ of\ Updates\ ***}$
+
 ## This project provides a set of tools for analyzing animal behavior following DeepLabCut (DLC) pose-estimation.
 
 It includes modules for:
